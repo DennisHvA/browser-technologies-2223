@@ -4,10 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nerdy T-shirt</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>  
+<body>
+    <header></header>
+
+    <main>
+        <h1>Maak een T-shirt!</h1>
+        <p id="error"></p>
+        <form action="/cart.html">
+            <fieldset>
+                <legend>Vul je gegevens in</legend>
+                <section>
+                    <label for="email">Email:
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                </section>
+                <section>
+                    <label>Gender:</label>
+                    <label for="gender">
+                        <input type="radio" name="gender" value="Male" checked>
+                        Male
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" value="Female">
+                        Female
+                    </label>
+                </section>
+                <section>
+                    <label>Size:</label>
+                    <label for="size">
+                        <input type="radio" name="size" value="S">
+                        S
+                    </label>
+                    <label for="size">
+                        <input type="radio" name="size" value="M" checked>
+                        M
+                    </label>
+                    <label for="size">
+                        <input type="radio" name="size" value="M">
+                        L
+                    </label>
+                </section>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Ontwerp je T-shirt!</legend>
+                <!-- <section>
+                    <label for="color">Color:
+                        <input type="color" name="color" id="">
+                    </label>
+                </section> -->
+                <section>
+                    <label>Color:</label>
+                    <label for="color">
+                        <input type="radio" name="color" value="red" checked>
+                        Red
+                    </label>
+                    <label for="color">
+                        <input type="radio" name="color" value="green">
+                        Green
+                    </label>
+                    <label for="color">
+                        <input type="radio" name="color" value="blue">
+                        Blue
+                    </label>
+                </section>
+                <section>
+                    <label for="text">Text:
+                        <input type="text" name="text" id="" placeholder="optional">
+                    </label>
+                </section>
+                <section>
+                    <label for="img">Print:
+                        <input id="imgInp" type="file" name="img"  accept="image/*," multiple="false">
+                    </label>
+                    <br>
+                    <img id="blah" src="" alt="">
+                </section>
+                <input type="submit">
+                <a href="/cart.html">Ga naar bestelpagina</a>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>© Dennis de Graaf 2023</footer>
+
     <script src="./scripts/script.js"></script>
 </body>
 </html>
