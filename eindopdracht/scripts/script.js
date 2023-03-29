@@ -26,3 +26,13 @@ form.addEventListener('submit', (e) => {
     errorEmail.innerText = messages.join(', ');
   }
 });
+
+const graphic = document.querySelector('image')
+const text = document.querySelector('text')
+
+form.text.addEventListener("keyup", myFunction);
+
+function myFunction() {
+  let x = document.getElementById("text").value;
+  text.innerHTML = x;
+}

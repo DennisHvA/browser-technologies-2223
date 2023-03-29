@@ -6,3 +6,19 @@ fieldset {
 img {
     width: 10em;
 }
+
+text {
+    fill: white;
+}
+
+:has(form > fieldset:nth-child(3) > section:nth-child(2) > label:nth-child(2) > input:checked) svg{
+    fill: red;
+}
+
+:has(form > fieldset:nth-child(3) > section:nth-child(2) > label:nth-child(3) > input:checked) svg{
+    fill: green;
+}
+
+:has(form > fieldset:nth-child(3) > section:nth-child(2) > label:nth-child(4) > input:checked) svg{
+    fill: blue;
+}
