@@ -1,24 +1,107 @@
-fieldset {
-    display: flex;
-    flex-direction: column;
+/* --------------- */
+/* algemene  styling */
+/* --------------- */
+
+:root {
+    --color-tshirt-red: red;
+    --color-tshirt-green: green;
+    --color-tshirt-blue: blue;
 }
 
 img {
-    width: 10em;
+    max-width: 10em;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+main > section:first-of-type {
+    order: 1;
+}
+
+main > section:first-of-type {
+    order: 2;
+}
+
+details {
+    position: relative;
+}
+
+details:nth-child(3) > summary::marker {
+    content: "+";
+}
+
+details:nth-child(3)[open] > summary::marker {
+    content: "-";
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
 }
 
 text {
     fill: white;
 }
 
+/* --------------- */
+/* T-shirt */
+/* --------------- */
+
+/* drag */
+
+body > main > section > details:nth-child(2) > section:nth-child(4) {
+    position: relative;
+    width: 160px;
+    height: 160px;
+}
+
+#shirt {
+    position: absolute;
+}
+
+/* color */
+
 :has(form > fieldset:nth-child(3) > section:nth-child(2) > label:nth-child(2) > input:checked) svg{
-    fill: red;
+    fill: var(--color-tshirt-red);
 }
 
 :has(form > fieldset:nth-child(3) > section:nth-child(2) > label:nth-child(3) > input:checked) svg{
-    fill: green;
+    fill: var(--color-tshirt-green);
 }
 
 :has(form > fieldset:nth-child(3) > section:nth-child(2) > label:nth-child(4) > input:checked) svg{
-    fill: blue;
+    fill: var(--color-tshirt-blue);
+}
+
+.red {
+    fill: var(--color-tshirt-red);
+}
+
+.green {
+    fill: var(--color-tshirt-green);
+}
+
+.blue {
+    fill: var(--color-tshirt-blue);
+}
+
+/* graphic */
+#blah {
+    max-width: 5em;
+    max-height: 7.5em;
+    top: 4em;
+    left: 2.5em;
+    position: absolute;
+}
+
+/* scanner */
+#scanner.hide {
+    display: none;
+}
+
+video {
+    border-radius: 50%;
 }
