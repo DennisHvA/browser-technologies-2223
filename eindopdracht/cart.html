@@ -9,11 +9,14 @@
 </head>
 <body>
     <h1>Afrekenen</h1>
-    <details open>
+    <details class="shirt" open>
         <summary>T-shirt 1</summary>
         <form action="/thanks.html">
             <fieldset>
                 <legend>Gegevens</legend>
+                <label for="number">Number:
+                    <input type="number" id="quantity" name="number" min="1" value="1">
+                </label>
                 <label for="email">Email:
                     <input type="email" name="email" id="" value="je@email.adres" disabled>
                 </label>
@@ -25,80 +28,145 @@
                 </label>
                 <br>
                 <label for="color">Color:
-                    <input type="text" name="color" value="Red" disabled>
+                    <input id="color" type="text" name="color" value="Red" disabled>
                 </label>
                 <label for="text">Text:
-                    <input type="text" name="text" value="text" disabled>
+                    <input id="text" type="text" name="text" value="text" disabled>
                 </label>
                 <label for="print">Print:
                     <input type="text" name="print" value="file.name" disabled>
                 </label>
-                <label>Preview:</label>
-                <img src="./images/example.png" alt="preview of your designed t-shirt">
+                <img id="test" src="./images/graphic.png" alt="your uploaded graphic">
             </fieldset>
         </form>
+        <p>Preview:</p>
+        <section>
+            <section id="shirt">
+                <img id="blah" src="./images/graphic.png" alt="preview of your designed t-shirt">
+                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.19 178" width="160" height="160" class="red">
+                    <g id="Layer_1-2" data-name="Layer 1">
+                      <path d="m45.62,178c-1.89-.63-1.78-2.61-1.83-4.16-.04-1.37-.15-2.74-.15-4.11,0-27.39.03-54.79.04-82.18,0-1.64,0-3.27,0-5.4-4.41,2.52-8.29,4.73-12.16,6.95-3.41,1.95-4.43,1.79-6.43-1.66-7.99-13.83-15.94-27.68-23.82-41.57-2.05-3.62-1.75-4.46,1.81-6.57,8.06-4.77,16.12-9.54,24.24-14.21,13.92-8.02,27.88-15.98,41.84-23.94,3.11-1.78,3.64-1.6,5.78,1.3,3.45,4.69,7.8,8.42,13.07,10.82,11.64,5.3,23.71,5.74,35.94,2.33,7.9-2.2,14.77-6.11,19.58-13,2.12-3.04,2.68-3.24,5.88-1.42,22.21,12.7,44.41,25.42,66.6,38.15,3.84,2.2,3.95,2.63,1.73,6.59-5.36,9.55-10.74,19.09-16.17,28.6-2.52,4.43-5.14,8.8-7.75,13.18-1.85,3.1-2.94,3.38-6.11,1.55-3.3-1.91-6.55-3.89-9.83-5.82-.76-.45-1.55-.84-2.66-1.45v2.8c0,29.01,0,58.01,0,87.02,0,2.47.23,4.81-2.61,6.19"/>
+                      <text text-anchor="middle" x="105" y="60">Place text</text>
+                      <text x="90" y="120">Print</text>
+                      <!-- <image
+                        width="75"
+                        x="70"
+                        y="90"
+                        href="./images/graphic.png" 
+                        clip-path="url(#circleView)"
+                        /> -->
+                    </g>
+                  </svg>
+            </section>
+        </section>
     </details>
-    <details>
+    <details class="shirt">
         <summary>T-shirt 2</summary>
         <form action="/thanks.html">
             <fieldset>
                 <legend>Gegevens</legend>
-                <label for="email">Email:
-                    <input type="email" name="email" id="" value="je@email.adres" disabled>
+                <label for="number2">Number:
+                    <input type="number" name="number2" min="1" value="1">
                 </label>
-                <label for="gender">Gender:
-                    <input type="text" name="gender" value="Male" disabled>
+                <label for="email2">Email:
+                    <input type="email" name="email2" id="" value="je@email.adres" disabled>
                 </label>
-                <label for="size">Size:
-                    <input type="text" name="size" value="M" disabled>
+                <label for="gender2">Gender:
+                    <input type="text" name="gender2" value="Male" disabled>
+                </label>
+                <label for="size2">Size:
+                    <input type="text" name="size2" value="M" disabled>
                 </label>
                 <br>
-                <label for="color">Color:
-                    <input type="text" name="color" value="Red" disabled>
+                <label for="color2">Color:
+                    <input id="color2" type="text" name="color2" value="Red" disabled>
                 </label>
-                <label for="text">Text:
-                    <input type="text" name="text" value="text" disabled>
+                <label for="text2">Text:
+                    <input id="text2" type="text" name="text2" value="text" disabled>
                 </label>
-                <label for="print">Print:
-                    <input type="text" name="print" value="file.name" disabled>
+                <label for="print2">Print:
+                    <input type="text" name="print2" value="file.name" disabled>
                 </label>
-                <label>Preview:</label>
-                <img src="./images/example.png" alt="preview of your designed t-shirt">
+                <img id="test2" src="./images/graphic.png" alt="your uploaded graphic">
             </fieldset>
         </form>
+        <p>Preview:</p>
+        <section>
+            <section id="shirt2">
+                <img id="blah2" src="./images/graphic.png" alt="preview of your designed t-shirt">
+                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.19 178" width="160" height="160" class="red">
+                    <g id="Layer_1-2" data-name="Layer 1">
+                      <path d="m45.62,178c-1.89-.63-1.78-2.61-1.83-4.16-.04-1.37-.15-2.74-.15-4.11,0-27.39.03-54.79.04-82.18,0-1.64,0-3.27,0-5.4-4.41,2.52-8.29,4.73-12.16,6.95-3.41,1.95-4.43,1.79-6.43-1.66-7.99-13.83-15.94-27.68-23.82-41.57-2.05-3.62-1.75-4.46,1.81-6.57,8.06-4.77,16.12-9.54,24.24-14.21,13.92-8.02,27.88-15.98,41.84-23.94,3.11-1.78,3.64-1.6,5.78,1.3,3.45,4.69,7.8,8.42,13.07,10.82,11.64,5.3,23.71,5.74,35.94,2.33,7.9-2.2,14.77-6.11,19.58-13,2.12-3.04,2.68-3.24,5.88-1.42,22.21,12.7,44.41,25.42,66.6,38.15,3.84,2.2,3.95,2.63,1.73,6.59-5.36,9.55-10.74,19.09-16.17,28.6-2.52,4.43-5.14,8.8-7.75,13.18-1.85,3.1-2.94,3.38-6.11,1.55-3.3-1.91-6.55-3.89-9.83-5.82-.76-.45-1.55-.84-2.66-1.45v2.8c0,29.01,0,58.01,0,87.02,0,2.47.23,4.81-2.61,6.19"/>
+                      <text text-anchor="middle" x="105" y="60">Place text</text>
+                      <text x="90" y="120">Print</text>
+                      <!-- <image
+                        width="75"
+                        x="70"
+                        y="90"
+                        href="./images/graphic.png" 
+                        clip-path="url(#circleView)"
+                        /> -->
+                    </g>
+                  </svg>
+            </section>
+        </section>
     </details>
-    <details>
+    <details class="shirt">
         <summary>T-shirt 3</summary>
         <form action="/thanks.html">
             <fieldset>
                 <legend>Gegevens</legend>
-                <label for="email">Email:
-                    <input type="email" name="email" id="" value="je@email.adres" disabled>
+                <label for="number3">Number:
+                    <input type="number" name="number3" min="1" value="1">
                 </label>
-                <label for="gender">Gender:
-                    <input type="text" name="gender" value="Male" disabled>
+                <label for="email3">Email:
+                    <input type="email" name="email3" id="" value="je@email.adres" disabled>
                 </label>
-                <label for="size">Size:
-                    <input type="text" name="size" value="M" disabled>
+                <label for="gender3">Gender:
+                    <input type="text" name="gender3" value="Male" disabled>
+                </label>
+                <label for="size3">Size:
+                    <input type="text" name="size3" value="M" disabled>
                 </label>
                 <br>
-                <label for="color">Color:
-                    <input type="text" name="color" value="Red" disabled>
+                <label for="color3">Color:
+                    <input id="color3" type="text" name="color3" value="Red" disabled>
                 </label>
-                <label for="text">Text:
-                    <input type="text" name="text" value="text" disabled>
+                <label for="text3">Text:
+                    <input id="text3" type="text" name="text3" value="text" disabled>
                 </label>
-                <label for="print">Print:
-                    <input type="text" name="print" value="file.name" disabled>
+                <label for="print3">Print:
+                    <input type="text" name="print3" value="file.name" disabled>
                 </label>
-                <label>Preview:</label>
-                <img src="./images/example.png" alt="preview of your designed t-shirt">
+                <img id="test3" src="./images/graphic.png" alt="your uploaded graphic">
             </fieldset>
         </form>
+        <section>
+            <section id="shirt3">
+                <label>Preview:</label>
+                <img id="blah3" src="/images/graphic.png" alt="preview of your designed t-shirt">
+                <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.19 178" width="160" height="160" class="red">
+                    <g id="Layer_1-2" data-name="Layer 1">
+                      <path d="m45.62,178c-1.89-.63-1.78-2.61-1.83-4.16-.04-1.37-.15-2.74-.15-4.11,0-27.39.03-54.79.04-82.18,0-1.64,0-3.27,0-5.4-4.41,2.52-8.29,4.73-12.16,6.95-3.41,1.95-4.43,1.79-6.43-1.66-7.99-13.83-15.94-27.68-23.82-41.57-2.05-3.62-1.75-4.46,1.81-6.57,8.06-4.77,16.12-9.54,24.24-14.21,13.92-8.02,27.88-15.98,41.84-23.94,3.11-1.78,3.64-1.6,5.78,1.3,3.45,4.69,7.8,8.42,13.07,10.82,11.64,5.3,23.71,5.74,35.94,2.33,7.9-2.2,14.77-6.11,19.58-13,2.12-3.04,2.68-3.24,5.88-1.42,22.21,12.7,44.41,25.42,66.6,38.15,3.84,2.2,3.95,2.63,1.73,6.59-5.36,9.55-10.74,19.09-16.17,28.6-2.52,4.43-5.14,8.8-7.75,13.18-1.85,3.1-2.94,3.38-6.11,1.55-3.3-1.91-6.55-3.89-9.83-5.82-.76-.45-1.55-.84-2.66-1.45v2.8c0,29.01,0,58.01,0,87.02,0,2.47.23,4.81-2.61,6.19"/>
+                      <text text-anchor="middle" x="105" y="60">Place text</text>
+                      <text x="90" y="120">Print</text>
+                      <!-- <image
+                        width="75"
+                        x="70"
+                        y="90"
+                        href="./images/graphic.png" 
+                        clip-path="url(#circleView)"
+                        /> -->
+                    </g>
+                  </svg>
+            </section>
+        </section>
     </details>
     <section>
         <a href="/">Terug</a>
-        <input type="submit">
+        <input type="submit" value="Buy">
     </section>
+
+    <script src="./scripts/cart.js"></script>
 </body>
 </html>
