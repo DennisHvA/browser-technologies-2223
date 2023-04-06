@@ -58,10 +58,6 @@ text {
     fill: white;
 }
 
-input[type="email"]:user-invalid {
-    background-color: red;
-}
-
 a, button, input[type="submit"]{
     background-color: black;
     color: white;
@@ -82,7 +78,9 @@ a {
     max-width: 3em;
 }
 
-input[type="text"], input[type="email"]
+input[type="text"]:not(:focus):not(:placeholder-shown):invalid, input[type="email"]:not(:focus):not(:placeholder-shown):invalid {
+    border: red solid 1px;
+}
 
 svg:hover {
     cursor: pointer;
@@ -178,6 +176,7 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .paspop > img {
