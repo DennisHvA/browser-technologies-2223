@@ -36,6 +36,30 @@ Hier wordt de applicatie goed te gebruiken. Eerst werkte met moeite, maar nu is 
 
 Hier wordt het voor de site erg fijn om te gebruiken. De opgegeven voorkeuren en gegevens worden opgeslagen en als de gebruiker terugkeert op de site is niets weg! Ook wordt er voor feedback gezorgd. Als de gebruiker aan het ontwerpen is, wordt er live een preview gegenereerd van het t-shirt! Zo kan de gebruiker een idee krijgen hoe het t-shirt er in het echt uit zal zien. Ook wordt er feedback gegeven als het bestellen van het formulier fout gaat. 
 
+## Feature Detection
+
+In het overzicht van de t-shirts heb ik voor de styling een soort kledingkast gemaakt. Om alle t-shirts zit een section met een border, maar die sluit niet aan voor de kleding hanger. Hiervoor maak ik een gradient in elk t-shirt, waardoor hij erachter zit. Dit werkt niet in elke browser, en hierdoor valt het hele ontwerp weg. Dus als dit support heeft, is alle styling voor de kledingkast aanwezig. 
+
+```css
+@supports (background-image: linear-gradient(to bottom, transparent 0% 2%, grey 2% 6%, transparent 6%)) {
+    /* als hij de gradient in een background image support ... */
+}
+```
+
+Ook heb ik gekeken of de :has selector ondersteund wordt. Hiervoor heb ik een manier gevonden met JavaScript en CSS, maar hier kreeg ik problemen mee dus heb ik dit niet aanstaan. Blijkbaar kan je nog niet testen in Chrome of de :has selector gesupport wordt, want als je dit doet zegt hij dat er geen support is.
+
+```js
+if (CSS.supports(':has(*)')) {
+    // als hij :has support
+}
+```
+
+```css
+@supports (selector(:has)) {
+    /* niet zeker of dit werkt */
+}
+```
+
 ## Browsers
 
 Desktop 
