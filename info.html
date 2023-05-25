@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerdy T-shirt</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section>
+            <a href="overview.html" aria-label="page back">
+                <svg viewBox="0 0 320 512" width="20"> 
+                    <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/>
+                </svg>
+            </a>
+            <h1>Info</h1>
+        </section>
+        <progress max="100" value="75"></progress>
+    </header>
+    <main>
+        <form action="/thanks.html">
+            <fieldset>
+                <legend>Enter your information</legend>
+                <section>
+                    <label for="email">Email:
+                        <input type="email" name="email" placeholder="email" required>
+                    </label>
+                    <p>hallo</p>
+                </section>
+                <section>
+                    <label>Gender:</label>
+                    <label for="gender">
+                        <input type="radio" name="gender" value="Male" checked>
+                        Male
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="gender" value="Female">
+                        Female
+                    </label>
+                </section>
+                <section>
+                    <label>Size:</label>
+                    <label for="size">
+                        <input type="radio" name="size" value="S">
+                        S
+                    </label>
+                    <label for="size">
+                        <input type="radio" name="size" value="M" checked>
+                        M
+                    </label>
+                    <label for="size">
+                        <input type="radio" name="size" value="L">
+                        L
+                    </label>
+                </section>
+            </fieldset>
+            <br>
+            <input type="submit" value="Pay">
+        </form>
+        
+    </main>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
