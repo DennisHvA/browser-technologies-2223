@@ -134,6 +134,10 @@ Tijdens het coderen heb ik veel vanuit Chrome geswitched naar Flow. Hieruit ben 
 - Gap werkt niet
 - Background image met een gradient werkt niet
 
+- Een preview geven van hoe mijn t-shirt eruit komt te zien werkt niet
+- Het opslaan van de data werkt niet
+- Feedback als een formulier niet goed wordt ingevuld werkt niet
+
 #### Samsung Internet
 
 ![Screenshot_20230526-013512_Samsung Internet](https://github.com/DennisHvA/real-time-web-2223/assets/94405795/766a0397-4799-428c-afd3-63d1549423eb)
