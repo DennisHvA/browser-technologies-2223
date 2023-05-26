@@ -308,6 +308,13 @@ input::file-selector-button:hover {
     color: white;
 }
 
+input[type="email"]:not(:focus):not(:placeholder-shown):invalid {
+    border: var(--color-red) solid 3px;
+}
+
+*:disabled {
+    background-color: var(--color-grey);
+}
 /* progress */
 
 progress {

@@ -36,6 +36,16 @@ Hier wordt de applicatie goed te gebruiken. Eerst werkte met moeite, maar nu is 
 
 Hier wordt het voor de site erg fijn om te gebruiken. De opgegeven voorkeuren en gegevens worden opgeslagen en als de gebruiker terugkeert op de site is niets weg! Ook wordt er voor feedback gezorgd. Als de gebruiker aan het ontwerpen is, wordt er live een preview gegenereerd van het t-shirt! Zo kan de gebruiker een idee krijgen hoe het t-shirt er in het echt uit zal zien. Ook wordt er feedback gegeven als het bestellen van het formulier fout gaat. 
 
+## Progressive Enhancement
+
+Ik ben begonnen met pure HTML en hier een flow voor te maken. Ik heb gezorgd dat de basis als eerst zou werken. Dit was voornamelijk het gebruikt van forms met inputs en br's gebruiken als standaard layout. Toen ik eenmaal een flow had met juiste elementen heb ik CSS toegevoegd. Ik heb een layout gemaakt en alles wat kleur gegeven waardoor het bruikbaar werd. Als laats JavaScript voor extra's zoals cachen en feedback. Maar altijd zodat de HTML geen CSS of JavaScript nodig heeft voor de basisfunctionaliteit en dat het voor elke browser werkt. 
+
+Als de gegevens bij het bestellen niet goed worden ingevuld krijgt de gebruiker feedback in de vorm van een code kleur om de input en krijgt de gebruiker een bericht. De kleur krijgt de gebruiker te zien als CSS wordt ondersteund, en feedbacktekst als JavaScript is ingeschakeld.
+
+Tijdens het ontwerpen krijgt de gebruiker direct een preview te zien hoe het t-shirt eruit gaat zien. Zo krijgt de gebruiker feedback dat zijn voorkeuren worden doorgevoerd en kan hij een idee krijgen hoe het eruit zal zien. De kleur wordt laten zien. Dit kan al als CSS is ondersteund en daarbij de :has selector. Als JavaScript is ondersteund voegt hij een class toe en kleurt hij het t-shirt in de preview. Ook als tekst en een afbeelding wordt meegegeven en JavaScript is ondersteund worden deze ook laten zien in de preview van het t-shirt. 
+
+Ook wordt op de overzicht pagina alles laten zien wat is ontworpen, zo krijgt de gebruiker een goed overzicht van alles. Het wordt laten zien in tekst, en in de preview van het t-shirt. Dit werkt als JavaScript en localstorage is ondersteund.
+
 ## Feature Detection
 
 In het overzicht van de t-shirts heb ik voor de styling een soort kledingkast gemaakt. Om alle t-shirts zit een section met een border, maar die sluit niet aan voor de kleding hanger. Hiervoor maak ik een gradient in elk t-shirt, waardoor hij erachter zit. Dit werkt niet in elke browser, en hierdoor valt het hele ontwerp weg. Dus als dit support heeft, is alle styling voor de kledingkast aanwezig. 
