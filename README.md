@@ -60,11 +60,14 @@ if (CSS.supports(':has(*)')) {
 }
 ```
 
+Eerst had ik ook nog een functie in mijn ontwerp waarmee je de camera aan kan zetten en je t-shirt kan passen. Helaas heb ik geen manier gevonden hoe ik kan detecten of de camera functie ondersteund wordt. Ik de camera functie eruit gehaald, omdat ik een button had die het niet deed voor bepaalde browsers. 
+
 ## Browsers
 
 Desktop 
 - Chrome 
 - Safari
+- Firefox
 - Flow
 
 Mobile
@@ -74,6 +77,8 @@ Mobile
 ## Werkwijze
 
 Standaard gebruikt ik Chrome om te coderen. In deze browser ben ik begonnen en heb ik ook geen probleem ervaren. Voor anderhalve week heb ik in Chrome gecodeerd. Toen we de les kregen over de obscure browsers ben ik meteen daarna ook met Flow begonnen. Mijn werkwijze was dat ik ging coderen in Chrome, en meteen in Flow keek of het zou werken. De gedachte hierachter was dat in deze browser de minste features ondersteund zouden worden. Dus als het in de slechtste browser zou werken, kan ik er bijna wel vanuit gaat dat het in andere browsers ook zou werken. Hierdoor heb ik mijn ogen al vrij veel getackeld. 
+
+Voor het testen ben ik door mijn applicatie gegaan en heb ik gekeken of de main functionaleiten werkte. Eigenlijk alles deed het na behoren, behalve in Flow. Dit komt waarschijnlijk omdat ik niet veel nieuwe coding standards gebruik. Alleen het detecteren werd niet altijd ondersteund. Verder zag ik soms nog wel wat kleine styling details die bij sommige browsers anders waren.
 
 ### Een paar punten
 
@@ -94,6 +99,15 @@ Dit is mijn standaard browser
 - Mini ding: Een lege image tag geeft een icoontje
 
 Een klein dingetje, je ziet een icoontje dat hij de afbeelding niet kan vinden. Verder werkt alles net zoals in Chrome.
+
+## Firefox
+
+<img width="1434" alt="Scherm­afbeelding 2023-05-26 om 02 21 25" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/de1e1956-aae0-4687-906c-fc1a952fc3cb">
+
+- Alles werkt
+- Styling is soms anders
+
+Alle functionaliteiten werken goed. De styling is soms wel iets anders. Het lijkt alsof de progress bar een andere kleur blauw heeft en als je een bestand upload maakt hij de form breder.
 
 #### Flow
 

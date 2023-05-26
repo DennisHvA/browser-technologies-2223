@@ -317,6 +317,7 @@ progress {
     border-radius: 10px;
     background-color: #CCCCCC;
     overflow: hidden;
+    -webkit-appearance: none;
 }
 
 progress::-webkit-progress-value {
