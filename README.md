@@ -30,7 +30,7 @@ De core bestaat uit formulieren waar je voorkeuren kan opgeven om het t shirt te
 
 Hier wordt de applicatie goed te gebruiken. Eerst werkte met moeite, maar nu is het fijner om door de site te gaan. Alles heeft wat kleur gekregen en zijn er states toegevoegd. Zo kan de gebruiker goed zien of het een knop is als hij erover heen gaat. Alles heeft wat meer een layout zodat de gebruiker makkelijk door de site wordt geleid.
 
-## Pleasurable
+### Pleasurable
 
 <img width="1431" alt="Scherm­afbeelding 2023-05-26 om 00 50 34" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/e738e918-701c-42c5-948e-95534b76e8be">
 
@@ -84,15 +84,13 @@ Mobile
 - Samsung Internet (Samsung Galaxy)
 - Safari (iphone X)
 
-## Werkwijze
+### Werkwijze
 
 Standaard gebruikt ik Chrome om te coderen. In deze browser ben ik begonnen en heb ik ook geen probleem ervaren. Voor anderhalve week heb ik in Chrome gecodeerd. Toen we de les kregen over de obscure browsers ben ik meteen daarna ook met Flow begonnen. Mijn werkwijze was dat ik ging coderen in Chrome, en meteen in Flow keek of het zou werken. De gedachte hierachter was dat in deze browser de minste features ondersteund zouden worden. Dus als het in de slechtste browser zou werken, kan ik er bijna wel vanuit gaat dat het in andere browsers ook zou werken. Hierdoor heb ik mijn ogen al vrij veel getackeld. 
 
 Voor het testen ben ik door mijn applicatie gegaan en heb ik gekeken of de main functionaleiten werkte. Eigenlijk alles deed het na behoren, behalve in Flow. Dit komt waarschijnlijk omdat ik niet veel nieuwe coding standards gebruik. Alleen het detecteren werd niet altijd ondersteund. Verder zag ik soms nog wel wat kleine styling details die bij sommige browsers anders waren.
 
-### Een paar punten
-
-#### Chrome
+### Chrome
 
 <img width="1431" alt="Scherm­afbeelding 2023-05-26 om 00 50 34" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/e738e918-701c-42c5-948e-95534b76e8be">
 
@@ -101,7 +99,7 @@ Voor het testen ben ik door mijn applicatie gegaan en heb ik gekeken of de main 
 
 Dit is mijn standaard browser 
 
-#### Safari
+### Safari
 
 <img width="1422" alt="Scherm­afbeelding 2023-05-26 om 01 08 38" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/ba93281f-7e86-4425-92e0-5ef19803899d">
 
@@ -110,7 +108,7 @@ Dit is mijn standaard browser
 
 Een klein dingetje, je ziet een icoontje dat hij de afbeelding niet kan vinden. Verder werkt alles net zoals in Chrome.
 
-## Firefox
+### Firefox
 
 <img width="1434" alt="Scherm­afbeelding 2023-05-26 om 02 21 25" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/de1e1956-aae0-4687-906c-fc1a952fc3cb">
 
@@ -119,7 +117,7 @@ Een klein dingetje, je ziet een icoontje dat hij de afbeelding niet kan vinden. 
 
 Alle functionaliteiten werken goed. De styling is soms wel iets anders. Het lijkt alsof de progress bar een andere kleur blauw heeft en als je een bestand upload maakt hij de form breder.
 
-#### Flow
+### Flow
 
 <img width="1434" alt="Scherm­afbeelding 2023-05-26 om 01 13 27" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/2a6a128b-c778-4c77-a396-4f33251f9cf8">
 
@@ -138,7 +136,7 @@ Tijdens het coderen heb ik veel vanuit Chrome geswitched naar Flow. Hieruit ben 
 - Het opslaan van de data werkt niet
 - Feedback als een formulier niet goed wordt ingevuld werkt niet
 
-#### Samsung Internet
+### Samsung Internet
 
 ![Screenshot_20230526-013512_Samsung Internet](https://github.com/DennisHvA/real-time-web-2223/assets/94405795/766a0397-4799-428c-afd3-63d1549423eb)
 
@@ -146,7 +144,7 @@ Tijdens het coderen heb ik veel vanuit Chrome geswitched naar Flow. Hieruit ben 
 
 Met verbazing werkte alles goed. Tijdens het coderen was ik al steeds bezig om het responsive te maken, dus had ik al veel getackeld. 
 
-#### Safari IOS
+### Safari IOS
 
 - Alles werkt
 - Soms andere styling
